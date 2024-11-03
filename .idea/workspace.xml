@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a960b370-f919-48ac-aab0-47e2e79b321c" name="Changes" comment="" />
+    <list default="true" id="a960b370-f919-48ac-aab0-47e2e79b321c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/care_compass/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/care_compass/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +34,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/care_compasspro/care_compass",
+    "last_opened_file_path": "D:/care_compasspro/care_compass_frontend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -100,6 +103,7 @@
       <workItem from="1730531220247" duration="10442000" />
       <workItem from="1730630104240" duration="310000" />
       <workItem from="1730630722554" duration="25000" />
+      <workItem from="1730630751328" duration="6026000" />
     </task>
     <servers />
   </component>
