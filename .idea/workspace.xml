@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a960b370-f919-48ac-aab0-47e2e79b321c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/care_compass/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/care_compass/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="a960b370-f919-48ac-aab0-47e2e79b321c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +97,7 @@
       <workItem from="1730282165940" duration="2502000" />
       <workItem from="1730291948132" duration="5554000" />
       <workItem from="1730531220247" duration="10442000" />
-      <workItem from="1730630104240" duration="310000" />
+      <workItem from="1730630104240" duration="766000" />
     </task>
     <servers />
   </component>
