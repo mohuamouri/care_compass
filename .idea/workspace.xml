@@ -4,142 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a960b370-f919-48ac-aab0-47e2e79b321c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Doctor/migrations/0004_doctor_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DoctorsAppointment/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DoctorsAppointment/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DoctorsAppointment/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DoctorsAppointment/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DoctorsAppointment/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DoctorsAppointment/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DoctorsAppointment/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DoctorsAppointment/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient/migrations/0002_alter_patient_gender.py" afterDir="false" />
+    <list default="true" id="739cd4a2-6f60-4689-9ed4-5fafc256a3d0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DoctorsAppointment/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/care_compass.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/care_compass.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doctor/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Doctor/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Doctor/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Doctor/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/care_compass/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/care_compass/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/patient/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doctor/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Doctor/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorsAppointment/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorsAppointment/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorsAppointment/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorsAppointment/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorsAppointment/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorsAppointment/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/care_compass/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/care_compass/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
-    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 5
+  &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="2nmnpDnbjwBtNVhNgUMpeFN2W9M" />
+  <component name="ProjectId" id="2sO2GcjFgKtb80xBQFBkbPdMZtV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/care_compasspro/care_compass/Doctor&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\care_compasspro\care_compass\Doctor" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="care_compass" type="Python.DjangoServer" factoryName="Django server">
-      <module name="care_compass" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="localhost" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
-        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a960b370-f919-48ac-aab0-47e2e79b321c" name="Changes" comment="" />
-      <created>1729587309926</created>
+      <changelist id="739cd4a2-6f60-4689-9ed4-5fafc256a3d0" name="Changes" comment="" />
+      <created>1738312212587</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1729587309926</updated>
-      <workItem from="1729587311487" duration="3645000" />
-      <workItem from="1729593571081" duration="2596000" />
-      <workItem from="1729601594721" duration="17932000" />
-      <workItem from="1729688267988" duration="2975000" />
-      <workItem from="1729883490829" duration="7360000" />
-      <workItem from="1730125621833" duration="6068000" />
-      <workItem from="1730135043890" duration="3377000" />
-      <workItem from="1730191252696" duration="5161000" />
-      <workItem from="1730206641603" duration="536000" />
-      <workItem from="1730210058265" duration="3438000" />
-      <workItem from="1730216458413" duration="2301000" />
-      <workItem from="1730218964638" duration="2202000" />
-      <workItem from="1730282165940" duration="2502000" />
-      <workItem from="1730291948132" duration="5554000" />
-      <workItem from="1730531220247" duration="10442000" />
-      <workItem from="1730630104240" duration="310000" />
-      <workItem from="1730630722554" duration="25000" />
-      <workItem from="1730630751328" duration="7113000" />
-      <workItem from="1730639309175" duration="26000" />
-      <workItem from="1730699671944" duration="3872000" />
-      <workItem from="1730722744364" duration="5708000" />
-      <workItem from="1730738277498" duration="1401000" />
-      <workItem from="1730782479781" duration="2212000" />
-      <workItem from="1730809235749" duration="2173000" />
-      <workItem from="1730814351539" duration="3581000" />
+      <updated>1738312212587</updated>
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
 </project>
