@@ -1,36 +1,39 @@
+from django.shortcuts import render
+
+# Create your views here.
+from django.shortcuts import render
 from django.http import JsonResponse
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
-from .models import Doctor
-from .serializers import DoctorSerializer
-
+from .models import Caregiver
+from .serializers import CaregiverSerializer
 
 @api_view(['POST', 'GET'])
-def doctor_data(request):
+def caregiver_data(request):
     try:
         if request.method == 'POST':
-            serializer = DoctorSerializer(data=request.data)
+            serializer = CaregiverSerializer(data=request.data)
             if serializer.is_valid():
                 serializer.save()
                 return Response({
-                    "message": "Doctor data saved successfully.",
+                    "message": "Caregiver data saved successfully.",
                     "data": serializer.data
                 }, status=status.HTTP_201_CREATED)
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
         elif request.method == 'GET':
-            # Only fetch approved doctors
-            doctors = Doctor.objects.filter(is_approved=True)
+            # Only fetch approved caregivers
+            caregivers = Caregiver.objects.filter(is_approved=True)
 
-            if not doctors.exists():  # Check if no approved doctors exist
+            if not caregivers.exists():  # Check if no approved caregivers exist
                 return JsonResponse({
-                    "message": "No approved doctors available."
+                    "message": "No approved caregivers available."
                 }, status=status.HTTP_200_OK)
 
-            serializer = DoctorSerializer(doctors, many=True)
+            serializer = CaregiverSerializer(caregivers, many=True)
             return JsonResponse({
-                "message": "Approved doctor data retrieved successfully.",
+                "message": "Approved caregiver data retrieved successfully.",
                 "data": serializer.data
             }, status=status.HTTP_200_OK, safe=False)
 
