@@ -11,7 +11,7 @@ urlpatterns = [
     path('api/doctors/', include('Doctor.urls')),  # Doctors app
     path('api/nurses/', include('Nurse.urls')),  # Doctors app
     path('api/caregivers/', include('Caregiver.urls')),  # Doctors app
-    path('api/physiotherapist/', include('Physiotherapist.urls')),  # Doctors app
+    path('api/physiotherapists/', include('Physiotherapist.urls')),  # Doctors app
 
                   # Add the /doctor/ URL here
     path('doctor/', include('Doctor.urls')),  # Assuming you want to map it to views in the Doctor app

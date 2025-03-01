@@ -7,10 +7,10 @@ class Doctor(models.Model):
         ('O', 'Other'),
     ]
     PAYMENT_METHOD_CHOICES = [
-        ('Cash', 'cash'),
-        ('Card', 'card'),
-        ('Online Transfer', 'online Transfer'),
-        ('Other', 'other'),
+        ('bkash', 'bkash'),
+        ('nogod', 'nogod'),
+        ('rocket', 'rocket'),
+        #('Other', 'other'),
     ]
 
     # Commented out email field to prevent null values
@@ -23,8 +23,9 @@ class Doctor(models.Model):
     specialty = models.CharField(max_length=100, blank=True, null=True)
     specialization = models.CharField(max_length=100, help_text="Specific area of expertise")  # New field
     institute = models.CharField(max_length=100, blank=True, null=True)
-    day_of_service = models.CharField(max_length=20, blank=True, null=True, help_text="Day(s) available for service")
-    time_of_service = models.PositiveIntegerField(blank=True, null=True)
+    day_of_service = models.JSONField(blank=True, null=True, help_text="Days available for service (as an array)")
+    time_of_service = models.CharField(max_length=255, blank=True, null=True,
+                                       help_text="Time available for service (as a string)")
     mobile = models.CharField(max_length=15, blank=True, null=True, unique=True)
     payment_method = models.CharField(max_length=20, blank=True, null=True, choices=PAYMENT_METHOD_CHOICES)
     payment_method_number = models.CharField(max_length=15, blank=True, null=True)

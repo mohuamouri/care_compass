@@ -10,16 +10,16 @@ class Nurse(models.Model):
     )
 
     GENDER_CHOICES = (
-        ('male', 'male'),
-        ('female', 'female'),
-        ('others', 'others'),
+        ('M', 'M'),
+        ('F', 'F'),
+        ('O', 'O'),
     )
 
     PAYMENT_METHOD_CHOICES = [
-        ('Cash', 'cash'),
-        ('Card', 'card'),
-        ('Online Transfer', 'online Transfer'),
-        ('Other', 'other'),
+        ('bkash', 'bkash'),
+        ('nogod', 'nogod'),
+        ('rocket', 'rocket'),
+        # ('Other', 'other'),
     ]
 
 
@@ -33,10 +33,11 @@ class Nurse(models.Model):
     payment_method = models.CharField(max_length=20, blank=True, null=True, choices=PAYMENT_METHOD_CHOICES)
     PAYMENT_METHOD_CHOICES = models.CharField(max_length=15, blank=True, null=True)
     institute = models.CharField(max_length=100, blank=True, null=True)
-    day_of_service = models.CharField(max_length=20, blank=True, null=True, help_text="Day(s) available for service")
-    time_of_service = models.PositiveIntegerField(blank=True, null=True)
-
-
+    #day_of_service = models.CharField(max_length=20, blank=True, null=True, help_text="Day(s) available for service")
+    #time_of_service = models.PositiveIntegerField(blank=True, null=True)
+    day_of_service = models.JSONField(blank=True, null=True, help_text="Days available for service (as an array)")
+    time_of_service = models.CharField(max_length=255, blank=True, null=True,
+                                       help_text="Time available for service (as a string)")
 
 
     is_approved = models.BooleanField(default=False)  # Admin approval field
